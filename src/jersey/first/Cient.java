@@ -29,7 +29,7 @@ public class Cient {
 		// The HTML
 		System.out.println(service.path("rest").path("hello").accept(
 				MediaType.TEXT_HTML).get(String.class));
-
+		System.out.println(" Here Kunal, Changed something");
 	}
 
 	private static URI getBaseURI() {
