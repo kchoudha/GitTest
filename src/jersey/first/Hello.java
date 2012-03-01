@@ -10,7 +10,7 @@ public class Hello {
 	@GET
 	@Produces(MediaType.TEXT_PLAIN)
 	public String sayPlainTextHello() {
-		return "Hello Staline Manoja";
+		return "Hello Staline Manoja Changed Back";
 	}
 
 	// This method is called if XML is request
