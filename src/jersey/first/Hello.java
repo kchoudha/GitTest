@@ -10,14 +10,14 @@ public class Hello {
 	@GET
 	@Produces(MediaType.TEXT_PLAIN)
 	public String sayPlainTextHello() {
-		return "Hello Jersey";
+		return "Hello Staline";
 	}
 
 	// This method is called if XML is request
 	@GET
 	@Produces(MediaType.TEXT_XML)
 	public String sayXMLHello() {
-		return "<?xml version=\"1.0\"?>" + "<hello> Hello Jersey" + "</hello>";
+		return "<?xml version=\"1.0\"?>" + "<hello> Hello MAnoja :)" + "</hello>";
 	}
 
 	// This method is called if HTML is request
