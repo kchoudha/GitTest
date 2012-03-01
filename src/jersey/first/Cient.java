@@ -17,6 +17,7 @@ public class Cient {
 		ClientConfig config = new DefaultClientConfig();
 		Client client = Client.create(config);
 		WebResource service = client.resource(getBaseURI());
+		System.out.println("Modified by Staline......");
 		// Fluent interfaces
 		System.out.println(service.path("rest").path("hello").accept(
 				MediaType.TEXT_PLAIN).get(ClientResponse.class).toString());
