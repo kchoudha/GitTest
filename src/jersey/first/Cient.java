@@ -30,7 +30,7 @@ public class Cient {
 		System.out.println(service.path("rest").path("hello").accept(
 				MediaType.TEXT_HTML).get(String.class));
 		System.out.println(" Here Kunal, Changed something");
-		System.out.println(" Here Manoja, Changed something, changing again");
+		System.out.println(" Here Manoja, doing R&D to resolve conflict in git Hub......");
 	}
 
 	private static URI getBaseURI() {
